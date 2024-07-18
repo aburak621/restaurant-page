@@ -1,7 +1,7 @@
-function component() {
-  const element = document.createElement('div');
-  element.innerHTML = 'Heyo';
-  return element;
-}
+import homePage from './homePage';
+import menuPage from './menuPage';
+import aboutPage from './aboutPage';
+import './style.css';
 
-document.body.appendChild(component());
+const content = document.querySelector('#content');
+content.appendChild(homePage());
