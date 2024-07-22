@@ -3,8 +3,10 @@ import HeroImage from './hero.webp';
 
 function homePage() {
   const element = document.createElement('div');
+  element.classList.add('home-container');
 
-  const leftSection = document.createElement('left-section');
+  const leftSection = document.createElement('div');
+  leftSection.classList.add('left-section');
 
   const slogan = document.createElement('h2');
   slogan.classList.add('slogan');
@@ -12,6 +14,7 @@ function homePage() {
   leftSection.appendChild(slogan);
 
   const buttons = document.createElement('div');
+  buttons.classList.add('home-buttons');
   const viewMenuButton = document.createElement('button');
   viewMenuButton.classList.add('menu-button');
   viewMenuButton.textContent = 'View Menu';
