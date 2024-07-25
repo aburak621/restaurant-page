@@ -1,5 +1,5 @@
 export default contactPage;
-import MapImage from './mapImage.webp';
+import MapImage from './img/mapImage.webp';
 
 function contactPage() {
   const element = document.createElement('div');

@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "css-loader": "^7.1.2",
+    "eslint": "^9.7.0",
     "style-loader": "^4.0.0"
   }
 }

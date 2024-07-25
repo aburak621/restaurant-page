@@ -1,5 +1,5 @@
 export default homePage;
-import HeroImage from './hero.webp';
+import HeroImage from './img/hero.webp';
 
 function homePage() {
   const element = document.createElement('div');
