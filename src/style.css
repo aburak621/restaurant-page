@@ -23,8 +23,8 @@ body {
   height: 101vh;
   background: linear-gradient(
       120deg,
-      rgba(233, 231, 230, 1) 0%,
-      rgba(222, 218, 217, 1) 100%
+      rgba(233, 231, 220, 1) 0%,
+      rgba(222, 218, 207, 1) 100%
     )
     fixed;
 }
@@ -39,6 +39,12 @@ button {
   border-radius: 1000px;
   padding: 1vw 2vw;
   font-size: min(2vw, 0.9rem);
+  font-weight: bold;
+
+  &:hover {
+    transition: 0.2s;
+    filter:brightness(1.05);
+  }
 }
 
 nav {
@@ -70,6 +76,16 @@ nav {
   display: flex;
   justify-content: right;
   flex: 1;
+}
+
+.shopping-bag {
+  width: 100px;
+  background: no-repeat center/35% url("img/shopping_bag.svg");
+  transition: scale 0.25s;
+
+  &:hover {
+    scale: 1.2;
+  }
 }
 
 .home-container {
@@ -111,7 +127,7 @@ nav {
   grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
   gap: 120px 90px;
-  padding: 200px min(200px, 1vw);
+  padding: 150px min(200px, 1vw) 100px;
 }
 
 .card {
@@ -122,7 +138,7 @@ nav {
   background: linear-gradient(
     300deg,
     rgba(233, 233, 233, 1) 0%,
-    rgba(180, 180, 180, 1) 100%
+    rgba(190, 180, 170, 1) 100%
   );
   box-shadow: 0px 5px 10px rgba(180, 180, 180, 0.5);
 

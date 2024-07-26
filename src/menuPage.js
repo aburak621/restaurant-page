@@ -21,7 +21,7 @@ function menuPage() {
   const element = document.createElement('div');
   element.classList.add('card-container');
 
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 10; i++) {
     const newCard = itemCard(items[i % 2]);
     element.appendChild(newCard);
   }
