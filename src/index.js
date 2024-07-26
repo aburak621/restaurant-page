@@ -39,4 +39,4 @@ contactButton.addEventListener('click', () => {
 });
 
 const content = document.querySelector('#content');
-content.appendChild(menuPage());
+content.appendChild(contactPage());

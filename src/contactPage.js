@@ -3,9 +3,11 @@ import MapImage from './img/mapImage.webp';
 
 function contactPage() {
   const element = document.createElement('div');
+  element.classList.add('contact-container');
 
   // Address Section
   const addressSection = document.createElement('div');
+  addressSection.classList.add('address-section');
 
   const addressTitle = document.createElement('h2');
   addressTitle.textContent = 'Address';
@@ -22,6 +24,7 @@ function contactPage() {
 
   // Form Section
   const formSection = document.createElement('div');
+  formSection.classList.add('form-section');
 
   const formTitle = document.createElement('h2');
   formTitle.textContent = 'Contact Form';

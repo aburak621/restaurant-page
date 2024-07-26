@@ -166,3 +166,37 @@ nav {
     margin-top: 50px;
   }
 }
+
+.contact-container {
+  display: flex;
+  justify-content: stretch;
+  padding: 50px 10%;
+
+  h2 {
+    padding-bottom: 20px;
+  }
+}
+
+.address-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
